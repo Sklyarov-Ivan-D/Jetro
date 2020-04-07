@@ -1,0 +1,71 @@
+                                                                    @media (max-width:960px) {
+                                                                    .header__menu-btn {
+                                                                        display: block;
+                                                                    }
+                                                                    .header__menu ul {
+                                                                        display: none;
+                                                                        position: absolute;
+                                                                        top: 120px;
+                                                                        z-index: 2;
+                                                                        left: 0;
+                                                                        right: 0;
+                                                                        padding-bottom: 10px;
+                                                                        width: 100%;
+                                                                        background-color: #fff;
+                                                                    }
+                                                                    .header__menu li {
+                                                                        display: block;
+                                                                        text-align: center;
+                                                                    }
+                                                                    .header__menu li :hover {
+                                                                        border-bottom: 1px solid #000;
+                                                                    }
+                                                                    .header__menu li+li {
+                                                                        margin-left: 0;
+                                                                    }
+                                                                    .features_title__all {
+                                                                        flex-wrap: wrap;
+                                                                    }
+                                                                    .features_title {
+                                                                        width: 50%;
+                                                                        margin-bottom: 20px;
+                                                                    }
+                                                                    .recent__works-inner {
+                                                                        text-align: center;
+                                                                    }
+                                                                }
+                                                                
+                                                                @media (max-width:900px) {
+                                                                    .slider-text {
+                                                                        width: 250px;
+                                                                    }
+                                                                    .features_title {
+                                                                        padding-right: 10px;
+                                                                    }
+                                                                    .recent__block {
+                                                                        display: block;
+                                                                    }
+                                                                    .footer__inner {
+                                                                        flex-wrap: wrap;
+                                                                    }
+                                                                }
+                                                                
+                                                                @media (max-width:520) {
+                                                                    .features_title__all {
+                                                                        padding-right: 0;
+                                                                        width: 100%;
+                                                                    }
+                                                                    .footer__inner {
+                                                                        flex: start;
+                                                                    }
+                                                                    @media (max-width:420) {
+                                                                        .features_title__all {
+                                                                            padding-right: 0;
+                                                                            width: 100%;
+                                                                        }
+                                                                    }
+                                                                    @media (min-width:960) {
+                                                                        .header__menu>ul {
+                                                                            display: block !important;
+                                                                        }
+                                                                    }
